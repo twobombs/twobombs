@@ -63,8 +63,24 @@ docker build -f Dockerfile-bonsai-llama . -t twobombs/thereminq-bonsai:llama
 docker build -f Dockerfile-bonsai-qcircuit . -t twobombs/thereminq-bonsai:qcircuit
 docker build -f Dockerfile-bonsai-precooked . -t twobombs/thereminq-bonsai:precooked
 
-cd /thereminq-tensor/Dockerfiles
+cd /thereminq-tensors/Dockerfiles
 docker build -f Dockerfile . -t twobombs/thereminq-tensor
+docker build -f Dockerfile-metal . -t twobombs/thereminq-tensor:metal
+docker build -f Dockerfile-minimum . -t twobombs/thereminq-tensor:minimum
+docker build -f Dockerfile-quda . -t twobombs/thereminq-tensor:quda
+docker build -f Dockerfile-shors . -t twobombs/thereminq-tensor:shors
 
 cd /thereminq-llama/Dockerfiles
 docker build -f Dockerfile . -t twobombs/thereminq-llama
+docker build -f Dockerfile-cassandra . -t twobombs/thereminq-llama:cassandra
+docker build -f Dockerfile-chatui . -t twobombs/thereminq-llama:chatui
+docker build -f Dockerfile-cli . -t twobombs/thereminq-llama:cli
+docker build -f Dockerfile-cuda . -t twobombs/thereminq-llama:cuda
+docker build -f Dockerfile-elastic . -t twobombs/thereminq-llama:elastic
+docker build -f Dockerfile-langchain . -t twobombs/thereminq-llama:langchain
+docker build -f Dockerfile-opencl . -t twobombs/thereminq-llama:opencl
+docker build -f Dockerfile-orchestrate . -t twobombs/thereminq-llama:orchestrate
+docker build -f Dockerfile-spark . -t twobombs/thereminq-llama:spark
+docker build -f Dockerfile-unittest . -t twobombs/thereminq-llama:unittest
+
+
