@@ -3,8 +3,8 @@
 # will eat your machine
 
 docker buildx prune -a -f
-docker rm $(docker ps -aq)
-docker rmi $(docker images -aq)
+# docker rm $(docker ps -aq)
+# docker rmi $(docker images -aq)
 
 rm build -R
 mkdir build && cd build
