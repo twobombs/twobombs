@@ -101,3 +101,5 @@ docker build --no-cache -f Dockerfile-opencl . -t twobombs/thereminq-llama:openc
 docker build --no-cache -f Dockerfile-orchestrate . -t twobombs/thereminq-llama:orchestrate > thereminq-llama:orchestrate &
 docker build --no-cache -f Dockerfile-spark . -t twobombs/thereminq-llama:spark > thereminq-llama:spark &
 docker build --no-cache -f Dockerfile-unittest . -t twobombs/thereminq-llama:unittest > thereminq-llama:unittest &
+
+tail -f /dev/null
