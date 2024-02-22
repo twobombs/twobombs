@@ -2,6 +2,8 @@
 # waterfall build this
 # will eat your machine
 
+# docker run -it --privileged twobombs/twobombs /buildall.sh
+
 docker buildx prune -a -f
 # docker rm $(docker ps -aq)
 # docker rmi $(docker images -aq)
