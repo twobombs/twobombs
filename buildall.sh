@@ -22,7 +22,7 @@ cd deploy-nvidia-docker
 docker build -f Dockerfile . -t twobombs/deploy-nvidia-docker > deploy-nvidia-docker 
 docker build -f Dockerfile-dev . -t twobombs/deploy-nvidia-docker:dev > deploy-nvidia-docker:dev 
 
-docker build -f Dockerfile-minimum . -t twobombs/deploy-nvidia-docker:minimum > > deploy-nvidia-docker:minimum 
+docker build -f Dockerfile-minimum . -t twobombs/deploy-nvidia-docker:minimum > deploy-nvidia-docker:minimum 
 
 cd .. && cd cudacluster
 docker build -f Dockerfile . -t twobombs/cudacluster > cudacluster 
@@ -45,7 +45,7 @@ docker build -f Dockerfile-braket . -t twobombs/qrackmin:braket > qrackmin:brake
 docker build -f Dockerfile-cuda . -t twobombs/qrackmin:cuda > qrackmin:cuda 
 docker build -f Dockerfile-pocl . -t twobombs/qrackmin:pocl > qrackmin:pocl 
 docker build -f Dockerfile-pyqrack . -t twobombs/qrackmin:pyqrack > qrackmin:pyqrack 
-docker build -f Dockerfile-qiskit . -t twobombs/qrackmin:qiskit > > qrackmin:qiskit 
+docker build -f Dockerfile-qiskit . -t twobombs/qrackmin:qiskit > qrackmin:qiskit 
 
 docker build -f Dockerfile-vcl . -t twobombs/qrackmin:vcl > qrackmin:vcl 
 docker build -f Dockerfile-vcl-controller . -t twobombs/qrackmin:vcl-controller > qrackmin:vcl-controller 
@@ -55,7 +55,7 @@ cd .. && cd .. && cd thereminq/Dockerfiles
 docker build -f Dockerfile . -t twobombs/thereminq > thereminq 
 docker build -f Dockerfile-controller . -t twobombs/thereminq:controller > thereminq:controller 
 docker build -f Dockerfile-controller-all . -t twobombs/thereminq:controller-all > thereminq:controller-all 
-docker build -f Dockerfile-cuquantum . -t twobombs/thereminq:cuquantum > > thereminq:cuquantum 
+docker build -f Dockerfile-cuquantum . -t twobombs/thereminq:cuquantum > thereminq:cuquantum 
 docker build -f Dockerfile-dev . -t twobombs/thereminq:dev > thereminq:dev 
 
 docker build -f Dockerfile-overlay . -t twobombs/thereminq:overlay > thereminq:overlay 
@@ -97,4 +97,3 @@ docker build -f Dockerfile-opencl . -t twobombs/thereminq-llama:opencl > theremi
 docker build -f Dockerfile-orchestrate . -t twobombs/thereminq-llama:orchestrate > thereminq-llama:orchestrate 
 docker build -f Dockerfile-spark . -t twobombs/thereminq-llama:spark > thereminq-llama:spark 
 docker build -f Dockerfile-unittest . -t twobombs/thereminq-llama:unittest > thereminq-llama:unittest 
-
