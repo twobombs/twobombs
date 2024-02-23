@@ -2,6 +2,8 @@ FROM cruizba/ubuntu-dind
 
 RUN apt update && apt install -y docker-buildx git coreutils
 
+RUN mkdir build
+
 RUN git clone https://github.com/twobombs/twobombs
 
 RUN git clone https://github.com/twobombs/deploy-nvidia-docker.git
