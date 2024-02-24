@@ -4,7 +4,7 @@
 # 
 # runs on dind ubuntu version - https://github.com/cruizba/ubuntu-dind 
 # run with 
-# docker run -ti --privileged --net:host twobombs/twobombs bash buildall.sh
+# docker run -ti --privileged --net=host twobombs/twobombs bash buildall.sh
 
 # setup registry and registry UI
 docker run -d -p 5000:5000 --net:host --restart=always --name registry2 registry:2
