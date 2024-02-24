@@ -1,10 +1,12 @@
 #!/bin/bash
-# waterfall build this
-# will eat your machine
-# 
+# a dind waterfall build this will eat your machine
+
 # runs on dind ubuntu version - https://github.com/cruizba/ubuntu-dind 
-# run with 
+
+# run with
 # docker run -ti --privileged --net=host twobombs/twobombs bash buildall.sh
+# this wil start one container but will spawn 10 build containers dind inside
+# and commit the builds against a local registry - exposed at http://localhost
 
 # setup registry and registry UI
 docker run -d -p 5000:5000 --net=host --restart=always --name registry2 registry:2
