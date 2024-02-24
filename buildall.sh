@@ -23,3 +23,5 @@ docker run -d --privileged --net=host twobombs/twobombs bash 9.sh
 docker run -d --privileged --net=host twobombs/twobombs bash 10.sh
 
 docker stats
+
+bash
