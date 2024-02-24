@@ -9,8 +9,8 @@
 
 cd deploy-nvidia-docker
 
-docker build --no-cache -f Dockerfile . -t twobombs/deploy-nvidia-docker > deploy-nvidia-docker &
-docker build --no-cache -f Dockerfile-dev . -t twobombs/deploy-nvidia-docker:dev > deploy-nvidia-docker:dev &
-docker build --no-cache -f Dockerfile-minimum . -t twobombs/deploy-nvidia-docker:minimum > deploy-nvidia-docker:minimum &
+docker build --no-cache -f Dockerfile . -t twobombs/deploy-nvidia-docker > deploy-nvidia-docker
+docker build --no-cache -f Dockerfile-dev . -t twobombs/deploy-nvidia-docker:dev > deploy-nvidia-docker:dev
+docker build --no-cache -f Dockerfile-minimum . -t twobombs/deploy-nvidia-docker:minimum > deploy-nvidia-docker:minimum
 
 tail -f /dev/null
