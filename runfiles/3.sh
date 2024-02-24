@@ -8,6 +8,7 @@
 # docker run -it --privileged twobombs/twobombs /buildall.sh
 
 cd qrackmin/dockerfiles
+
 docker build --no-cache -f Dockerfile . -t twobombs/qrackmin > qrackmin &
 docker build --no-cache -f Dockerfile-1804 . -t twobombs/qrackmin:1804 > qrackmin:1804 &
 docker build --no-cache -f Dockerfile-2004 . -t twobombs/qrackmin:2004 > qrackmin:2004 &
