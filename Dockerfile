@@ -15,7 +15,8 @@ RUN git clone https://github.com/twobombs/thereminq-bonsai.git
 RUN git clone https://github.com/twobombs/thereminq-tensors.git
 RUN git clone https://github.com/twobombs/thereminq-llama.git
 
-COPY runfiles/* /
+COPY runfiles/* /build
+RUN chmod 744 *
 
 COPY buildall.sh buildall.sh
 RUN chmod 755 buildall.sh
