@@ -2,7 +2,7 @@ FROM cruizba/ubuntu-dind
 
 RUN apt update && apt install -y docker-buildx git coreutils
 
-RUN WORKDIR /build
+WORKDIR /build
 
 RUN git clone https://github.com/twobombs/twobombs
 
