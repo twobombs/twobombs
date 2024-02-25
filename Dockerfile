@@ -1,8 +1,7 @@
 FROM cruizba/ubuntu-dind
 
-RUN DEBIAN_FRONTEND=noninteractive
 RUN apt update && apt -y upgrade && apt clean all 
-RUN apt update && apt install -y docker-buildx git coreutils glances
+RUN export DEBIAN_FRONTEND=noninteractive && apt update && apt install -y docker-buildx git coreutils glances
 
 WORKDIR /build
 
