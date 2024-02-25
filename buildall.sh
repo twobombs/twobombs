@@ -1,6 +1,5 @@
 #!/bin/bash
-# a dind waterfall build this will eat your machine
-
+# a dind waterfall build - this will eat your machine
 # runs on dind ubuntu version - https://github.com/cruizba/ubuntu-dind 
 
 # run with
