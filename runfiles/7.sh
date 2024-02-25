@@ -13,5 +13,3 @@ docker build --no-cache -f Dockerfiles/Dockerfile-bonsai-validation . -t twobomb
 docker build --no-cache -f Dockerfiles/Dockerfile-bonsai-llama . -t twobombs/thereminq-bonsai:llama > thereminq-bonsai:llama && docker tag twobombs/thereminq-bonsai:llama $HOSTNAME:5000/twobombs/thereminq-bonsai:llama && docker push $HOSTNAME:5000/twobombs/thereminq-bonsai:llama
 docker build --no-cache -f Dockerfiles/Dockerfile-bonsai-qcircuit . -t twobombs/thereminq-bonsai:qcircuit > thereminq-bonsai:qcircuit && docker tag twobombs/thereminq-bonsai:qcircuit $HOSTNAME:5000/twobombs/thereminq-bonsai:qcircuit && docker push $HOSTNAME:5000/twobombs/thereminq-bonsai:qcircuit
 docker build --no-cache -f Dockerfiles/Dockerfile-bonsai-precooked . -t twobombs/thereminq-bonsai:precooked > thereminq-bonsai:precooked && docker tag twobombs/thereminq-bonsai:precooked $HOSTNAME:5000/twobombs/thereminq-bonsai:precooked && docker push $HOSTNAME:5000/twobombs/thereminq-bonsai:precooked
-
-tail -f /dev/null
