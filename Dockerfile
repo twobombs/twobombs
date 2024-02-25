@@ -1,7 +1,7 @@
 FROM cruizba/ubuntu-dind
 
 RUN apt update && apt -y upgrade && apt clean all
-RUN apt update && apt install -y docker-buildx git coreutils
+RUN apt update && apt install -y docker-buildx git coreutils glances
 
 WORKDIR /build
 
