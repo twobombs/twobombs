@@ -9,5 +9,3 @@ docker build --no-cache -f Dockerfiles/Dockerfile-qimcifa . -t twobombs/theremin
 docker build --no-cache -f Dockerfiles/Dockerfile-sieve . -t twobombs/thereminq:sieve > thereminq:sieve && docker tag twobombs/thereminq:sieve $HOSTNAME:5000/twobombs/thereminq:sieve && docker push $HOSTNAME:5000/twobombs/thereminq:sieve
 docker build --no-cache -f Dockerfiles/Dockerfile-unittest . -t twobombs/thereminq:unittest > thereminq:unittest && docker tag twobombs/thereminq:unittest $HOSTNAME:5000/twobombs/thereminq:unittest && docker push $HOSTNAME:5000/twobombs/thereminq:unittest
 docker build --no-cache -f Dockerfiles/Dockerfile-vcl-controller-node . -t twobombs/thereminq:vcl-controller-node > thereminq:vcl-controller-node && docker tag twobombs/thereminq:vcl-controller-node $HOSTNAME:5000/twobombs/thereminq:vcl-controller-node && docker push $HOSTNAME:5000/twobombs/thereminq:vcl-controller-node
-
-tail -f /dev/null
