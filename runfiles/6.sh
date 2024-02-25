@@ -1,11 +1,5 @@
 #!/bin/bash
-# waterfall build this
-# will eat your machine
-# 
-# runs on dind ubuntu version 
-# https://github.com/cruizba/ubuntu-dind 
-
-# docker run -it --privileged twobombs/twobombs /buildall.sh
+#
 
 cd thereminq
 
