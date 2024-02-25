@@ -10,4 +10,3 @@ docker build --no-cache -f dockerfiles/Dockerfile-2204 . -t twobombs/qrackmin:22
 docker build --no-cache -f dockerfiles/Dockerfile-aws . -t twobombs/qrackmin:aws > qrackmin:aws && docker tag twobombs/qrackmin:aws $HOSTNAME:5000/twobombs/qrackmin:aws && docker push $HOSTNAME:5000/twobombs/qrackmin:aws
 docker build --no-cache -f dockerfiles/Dockerfile-braket . -t twobombs/qrackmin:braket > qrackmin:braket && docker tag twobombs/qrackmin:braket $HOSTNAME:5000/twobombs/qrackmin:braket && docker push $HOSTNAME:5000/twobombs/qrackmin:braket
 
-tail -f /dev/null
