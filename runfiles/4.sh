@@ -10,5 +10,3 @@ docker build --no-cache -f dockerfiles/Dockerfile-qiskit . -t twobombs/qrackmin:
 docker build --no-cache -f dockerfiles/Dockerfile-vcl . -t twobombs/qrackmin:vcl > qrackmin:vcl && docker tag twobombs/qrackmin:vcl $HOSTNAME:5000/twobombs/qrackmin:vcl && docker push $HOSTNAME:5000/twobombs/qrackmin:vcl
 docker build --no-cache -f dockerfiles/Dockerfile-vcl-controller . -t twobombs/qrackmin:vcl-controller > qrackmin:vcl-controller && docker tag twobombs/qrackmin:vcl-controller $HOSTNAME:5000/twobombs/qrackmin:vcl-controller && docker push $HOSTNAME:5000/twobombs/qrackmin:vcl-controller
 docker build --no-cache -f dockerfiles/Dockerfile-vcl-pocl . -t twobombs/qrackmin:vcl-pocl > qrackmin:vcl-controller && docker tag twobombs/qrackmin:vcl-pocl $HOSTNAME:5000/twobombs/qrackmin:vcl-pocl && docker push $HOSTNAME:5000/twobombs/qrackmin:vcl-pocl
-
-tail -f /dev/null
