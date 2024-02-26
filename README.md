@@ -2,7 +2,7 @@
 
 [![Twobombs's GitHub stats](https://github-readme-stats.vercel.app/api?username=twobombs&theme=city_lights&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
-All relevant `QuantOPS` images are on [dockerhub](https://hub.docker.com/u/twobombs) all images can be build standalone by the dind [build container](https://github.com/twobombs/twobombs/tree/main) 
+All `QuantOPS` images are on [dockerhub](https://hub.docker.com/u/twobombs) - alternatively all images can be build standalone by the dind [build container](https://github.com/twobombs/twobombs/tree/main) 
 ```bash
 docker run -ti --privileged --net=host twobombs/twobombs bash buildall.sh [or reponame.sh]
 ````
