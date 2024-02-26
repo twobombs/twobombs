@@ -1,18 +1,17 @@
-🏠 Home of ThereminQ - QuantOPS ⚛️
+🏠 Home of `ThereminQ - QuantOPS` ⚛️
 
 [![Twobombs's GitHub stats](https://github-readme-stats.vercel.app/api?username=twobombs&theme=city_lights&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
-All relevant QuantOPS images are avalable on [dockerhub](https://hub.docker.com/u/twobombs)
+All relevant `QuantOPS` images are avalable on [dockerhub](https://hub.docker.com/u/twobombs)
 
-They can also be build standalone
-
+The `QuantOPS` images can be build standalone by the dind [build container](https://github.com/twobombs/twobombs/tree/main); that image can be [build](https://github.com/twobombs/twobombs/blob/main/Dockerfile) as well
 ```bash
 docker run -ti --privileged --net=host twobombs/twobombs bash buildall.sh [or reponame.sh]
 ````
 
 After building for a few hours the images will be [browsable](http://localhost) as a [registry pull](http://localhost:5000)
 
-![Screenshot from 2024-02-26 20-59-50](https://github.com/twobombs/twobombs/assets/12692227/02d684a7-432d-45a3-b01f-a247f111aa59)
+![Screenshot from 2024-02-26 21-08-15](https://github.com/twobombs/twobombs/assets/12692227/6d12d38b-7441-4435-a94d-de860e46dc24)
 
 
 <!--
