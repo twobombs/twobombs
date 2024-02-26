@@ -14,25 +14,19 @@ docker run -d -p 80:80 --net=host -e SINGLE_REGISTRY=true -e NGINX_PROXY_PASS_UR
 # run all 10 jobs dind with 120 seconds interval for kworker docker storage process breathing space
 echo "all 10 jobs wil start with 120 seconds interval"
 
-docker run -d --privileged --net=host twobombs/twobombs bash 1.sh
+docker run -d --privileged --net=host twobombs/twobombs bash deploy-nvidia-docker.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 2.sh
+docker run -d --privileged --net=host twobombs/twobombs bash cudacluster.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 3.sh
+docker run -d --privileged --net=host twobombs/twobombs bash qrackmin.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 4.sh
+docker run -d --privileged --net=host twobombs/twobombs bash thereminq.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 5.sh
+docker run -d --privileged --net=host twobombs/twobombs bash thereminq-tensors.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 6.sh
+docker run -d --privileged --net=host twobombs/twobombs bash thereminq-bonsai.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 7.sh
-sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 8.sh
-sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 9.sh
-sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash 10.sh
+docker run -d --privileged --net=host twobombs/twobombs bash thereminq-llama.sh
 
 docker stats
 
