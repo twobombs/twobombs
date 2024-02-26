@@ -9,7 +9,7 @@
 
 # setup registry and registry UI
 docker run -d -p 5000:5000 --net=host --restart=always --name registry2 registry:2
-docker run -d -p 80:80 --net=host -e REGISTRY_URL=http://$HOSTNAME:5000 -e NGINX_PROXY_PASS_URL=http://$HOSTNAME:5000 joxit/docker-registry-ui:main
+docker run -d -p 80:80 --net=host -e SINGLE_REGISTRY=true -e NGINX_PROXY_PASS_URL=http://$HOSTNAME:5000 joxit/docker-registry-ui:main
 
 # run all 10 jobs dind with 120 seconds interval for kworker docker storage process breathing space
 echo "all 10 jobs wil start with 120 seconds interval"
