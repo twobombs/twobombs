@@ -28,6 +28,6 @@ docker run -d --privileged --net=host twobombs/twobombs bash thereminq-bonsai.sh
 sleep 120
 docker run -d --privileged --net=host twobombs/twobombs bash thereminq-llama.sh
 
-docker stats
+glances
 
 bash
