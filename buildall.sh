@@ -8,26 +8,29 @@
 # and commit the builds against a local registry - exposed at http://localhost
 
 # setup registry and registry UI
-docker run -d -p 5000:5000 --net=host --restart=always --name registry2 registry:2
+docker run -d -p 5000:5000 --net=host --restart=always -v /data/registry:/var/lib/registry --name registry2 registry:2
 docker run -d -p 80:80 --net=host --restart=always -e SINGLE_REGISTRY=true -e NGINX_PROXY_PASS_URL=http://$HOSTNAME:5000 joxit/docker-registry-ui:main
+docker pull twobombs/twobombs
 
 # run all 10 jobs dind with 120 seconds interval for kworker docker storage process breathing space
-echo "all 10 jobs wil start with 120 seconds interval"
+echo "all 7 jobs wil start with 120 seconds interval"
 
-docker run -d --privileged --net=host twobombs/twobombs bash deploy-nvidia-docker.sh
+docker run -d --privileged --name deploy-nvidia-docker --net=host twobombs/twobombs bash deploy-nvidia-docker.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash cudacluster.sh
+docker run -d --privileged --name cudacluster --net=host twobombs/twobombs bash cudacluster.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash qrackmin.sh
+docker run -d --privileged --name qrackmin --net=host twobombs/twobombs bash qrackmin.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash thereminq.sh
+docker run -d --privileged --name thereminq --net=host twobombs/twobombs bash thereminq.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash thereminq-tensors.sh
+docker run -d --privileged --name thereminq-tensors --net=host twobombs/twobombs bash thereminq-tensors.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash thereminq-bonsai.sh
+docker run -d --privileged --name thereminq-bonsai --net=host twobombs/twobombs bash thereminq-bonsai.sh
 sleep 120
-docker run -d --privileged --net=host twobombs/twobombs bash thereminq-llama.sh
+docker run -d --privileged --name thereminq-llama --net=host twobombs/twobombs bash thereminq-llama.sh
 
-glances
+screen glances
 
 bash
+
+tail -f /dev/null
