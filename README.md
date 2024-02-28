@@ -4,7 +4,7 @@
 
 All `QuantOPS` images are on [dockerhub](https://hub.docker.com/u/twobombs) - alternatively all tags can be build standalone by the [dind container](https://github.com/twobombs/twobombs/tree/main) 
 ```bash
-docker run -ti --privileged --net=host twobombs/twobombs bash buildall.sh [or reponame.sh]
+docker run -ti --privileged [-v /data/registry:/data/registry] --net=host twobombs/twobombs bash buildall.sh [reponame.sh]
 ````
 
 After building for a few hours all 53 tags are [browsable](http://localhost) and can be pulled from the [local registry](http://localhost:5000)
