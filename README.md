@@ -6,7 +6,7 @@
 <br>
 <br>
 
-- 🔭 I’m currently working on [Quantum AI](https://github.com/twobombs/thereminq-llama) and [QC Circuits](https://github.com/twobombs/thereminq-tensors/tree/master)
+- 🔭 I’m currently working on [Quantum AI Agents](https://github.com/twobombs/thereminq-llama) and [QC Circuits](https://github.com/twobombs/thereminq-tensors/tree/master)
 - 💬 Ask me about Quantum AI and gast scrambling in QFT 
 - 📫 How to reach me: [Twitter](https://twitter.com/twobombs)
 - ⚡ Fun fact: I have a [Discord](https://discord.gg/wG3gV6zP)
