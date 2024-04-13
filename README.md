@@ -11,6 +11,9 @@
 - 📫 How to reach me: [Twitter](https://twitter.com/twobombs)
 - ⚡ Fun fact: I have a [Discord](https://discord.gg/wG3gV6zP)
 
+<br>
+<br>
+
 All `ThereminQ - QuantOPS` images are on [dockerhub](https://hub.docker.com/u/twobombs) - alternatively all tags can be build standalone by the [dind container](https://github.com/twobombs/twobombs/tree/main) 
 ```bash
 docker run -ti --privileged [-v /data/registry:/data/registry] --net=host twobombs/twobombs bash buildall.sh [reponame.sh]
