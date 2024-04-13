@@ -7,7 +7,7 @@
 <br>
 
 - 🔭 I’m currently working on [Quantum AI Agents](https://github.com/twobombs/thereminq-llama) and [QC Circuits](https://github.com/twobombs/thereminq-tensors/tree/master)
-- 💬 Ask me about Quantum AI Agents and leveraging fast scrambling in QFT for Algorithmic iterations
+- 💬 Ask me about [Quantum AI Agents](https://github.com/twobombs/thereminq-llama) and leveraging fast scrambling in QFT for great benefit of Glorious Algorithmic Iterations
 - 📫 How to reach me: [Twitter](https://twitter.com/twobombs)
 - ⚡ Fun fact: I have a [Discord](https://discord.gg/wG3gV6zP)
 
