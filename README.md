@@ -1,6 +1,10 @@
-🏠 Home of `ThereminQ - QuantOPS` ⚛️ a Cloud ☁️ Native Toolbox ⚒️ for Quantum Workloads 👷 and Visualisations 🖼️
+🏠 Home of `ThereminQ - QuantOPS` ⚛️ a Cloud ☁️ Native Toolbox ⚒️ for Quantum Workloads 👷 and Visualisations 🖼️ 
 
 <img width="1000" alt="ThereminQ" src="https://github.com/twobombs/thereminq-tensors/assets/12692227/a299e650-6513-43d1-afab-ba036aa5e12e">
+🧭 Teleporting 🌊 Hilbert Space 🌌 #QuantOPS ⚒️
+
+<br>
+<br>
 
 - 🔭 I’m currently working on [Quantum AI](https://github.com/twobombs/thereminq-llama) and [QC Circuits](https://github.com/twobombs/thereminq-tensors/tree/master)
 - 💬 Ask me about Quantum AI and gast scrambling in QFT 
