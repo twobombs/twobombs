@@ -1,7 +1,7 @@
 🏠 Home of `ThereminQ - QuantOPS` ⚛️ a Cloud ☁️ Native Toolbox ⚒️ for Quantum Workloads 👷 and Visualisations 🖼️ 
 
 <img width="1000" alt="ThereminQ" src="https://github.com/twobombs/thereminq-tensors/assets/12692227/a299e650-6513-43d1-afab-ba036aa5e12e">
-🧭 Teleporting 🌊 Hilbert Space 🌌 #QuantOPS ⚒️
+🧭 Teleporting 🌊 Hilbert Space 🌌 QuantOPS ⚒️
 
 <br>
 <br>
