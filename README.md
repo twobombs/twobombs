@@ -7,7 +7,7 @@
 <br>
 
 - 🔭 I’m currently working on [Quantum AI Agents](https://github.com/twobombs/thereminq-llama) for [QC Circuit development](https://github.com/twobombs/thereminq-tensors?tab=readme-ov-file#ollama-open-interpreter-agentops-stack-for-coding-solutions)
-- 💬 Ask me about [Quantum AI Agents](https://github.com/twobombs/thereminq-llama) [Quantum Chemistry](https://github.com/twobombs/thereminq-llama/tree/main) and [fast scrambling in QFT](https://youtu.be/5NhJT8rtrOM?si=T28ePIyrzEnLlbxX) for [Great Benefit of Glorious Algorithmic Iterations](https://youtu.be/6Y08Tt51HDQ?si=bhZs23zwc_Atm5dI)
+- 💬 Ask me about [Quantum AI-Agents](https://github.com/twobombs/thereminq-llama), [Quantum Chemistry](https://github.com/twobombs/thereminq-llama/tree/main) and [fast scrambling in QFT](https://youtu.be/5NhJT8rtrOM?si=T28ePIyrzEnLlbxX) for [Great Benefit of Glorious Algorithmic Iterations](https://youtu.be/6Y08Tt51HDQ?si=bhZs23zwc_Atm5dI)
 - 📫 How to reach me: [Twitter](https://twitter.com/twobombs)
 - ⚡ Fun fact: I have a [Discord](https://discord.gg/wG3gV6zP)
 
