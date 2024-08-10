@@ -11,7 +11,7 @@
 - 📫 How to reach me: [Twitter](https://twitter.com/twobombs)
 - ⚡ Fun facts: Twobombs is a BBS handle and derives from an [arcane exception on the AtariST](https://en.wikipedia.org/wiki/Bomb_(icon)#Atari_ST_TOS) - [my Discord](https://discord.gg/wG3gV6zP) (modern BBS)
 
-## notice: currently upgrading all images to Ubuntu 24.04 CUDA 12.5+ 
+## notice: upgrading all images to Ubuntu 24.04 CUDA 12.5+ has been halted due to python dependancy issues - Ubuntu 22.04 with CUDA 12.5 remains the most stable
 <br>
 
 All `ThereminQ - QuantOPS` images are on [Dockerhub](https://hub.docker.com/u/twobombs) - alternatively all tags can be build standalone by the [dind container image](https://github.com/twobombs/twobombs/tree/main) 
