@@ -13,7 +13,8 @@
 
 ## notice: upgrading all images to `Ubuntu 24.04 CUDA 12.5+` has been halted due to several `python` dependancy issues - `Ubuntu 22.04 with CUDA 12.4` remains the most stable for ThereminQ. 
 
-## Both Ubuntu versions are offered by the base images `deploy-nvidia-desktop` and `cudacluster`, with 24.04 CUDA 12.6 as default `:latest` and the `2204` version avaliable under the tags `:2204` and `:2204dev`
+## Both Ubuntu versions are offered by the base images `deploy-nvidia-desktop` and `cudacluster`, with `24.04 CUDA 12.6` as default `:latest` and the `2204 CUDA 12.4` version avaliable under the tags `:2204` and `:2204dev`
+
 <br>
 
 All `ThereminQ - QuantOPS` images are on [Dockerhub](https://hub.docker.com/u/twobombs) - alternatively all tags can be build standalone by the [dind container image](https://github.com/twobombs/twobombs/tree/main) 
