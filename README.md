@@ -11,7 +11,7 @@
 - 📫 How to reach me: [Twitter](https://twitter.com/twobombs)
 - ⚡ Fun facts: Twobombs is a BBS handle and derives from an [arcane exception on the AtariST](https://en.wikipedia.org/wiki/Bomb_(icon)#Atari_ST_TOS) - [my Discord](https://discord.gg/wG3gV6zP) (modern BBS)
 
-## notice: upgrading all images to `Ubuntu 24.04 CUDA 12.5+` has been halted due to several `python` dependancy issues - `Ubuntu 22.04 with CUDA 12.4` remains the most stable for ThereminQ. 
+## notice: upgrading all images to `Ubuntu 24.04 CUDA 12.6+` has been halted due to several `python` dependancy issues - `Ubuntu 22.04 with CUDA 12.4` remains the most stable for ThereminQ. 
 
 ## Both Ubuntu versions are offered by the base images `deploy-nvidia-desktop` and `cudacluster`, with `24.04 CUDA 12.6` as default `:latest` and the `2204 CUDA 12.4` version avaliable under the tags `:2204` and `:2204dev`
 
