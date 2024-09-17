@@ -17,7 +17,7 @@ The AI/LLM models that are used in some of the container images are modified and
 
 <br>
 
-All `ThereminQ - QuantOPS` images are on [Dockerhub](https://hub.docker.com/u/twobombs) - alternatively all tags can be build standalone by the [dind container image](https://github.com/twobombs/twobombs/tree/main) 
+All `ThereminQ - QuantOPS` container images can be build standalone by the [dind container image](https://github.com/twobombs/twobombs/tree/main) 
 ```bash
 docker run -ti --privileged [-v /data/registry:/data/registry] --net=host twobombs/twobombs bash buildall.sh [reponame.sh]
 ````
