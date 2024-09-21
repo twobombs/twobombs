@@ -12,6 +12,6 @@ docker push $HOSTNAME:5000/twobombs/cudacluster:hpc &
 docker build --no-cache -f Dockerfile-samples . -t twobombs/cudacluster:samples > cudacluster:samples && docker tag twobombs/cudacluster:samples $HOSTNAME:5000/twobombs/cudacluster:samples
 docker push $HOSTNAME:5000/twobombs/cudacluster:samples &
 docker build --no-cache -f Dockerfile-vulkan . -t twobombs/cudacluster:vulkan > cudacluster:vulkan && docker tag twobombs/cudacluster:vulkan $HOSTNAME:5000/twobombs/cudacluster:vulkan
-docker push $HOSTNAME:5000/twobombs/cudacluster:vulkan &
+docker push $HOSTNAME:5000/twobombs/cudacluster:vulkan
 docker build --no-cache -f Dockerfile-gaming . -t twobombs/cudacluster:gaming > cudacluster:gaming && docker tag twobombs/cudacluster:gaming $HOSTNAME:5000/twobombs/cudacluster:gaming
-docker push $HOSTNAME:5000/twobombs/cudacluster:gaming &
+docker push $HOSTNAME:5000/twobombs/cudacluster:gaming
