@@ -58,7 +58,7 @@ docker pull $HOSTNAME:5000/twobombs/qrackmin:pyqrack
 docker tag $HOSTNAME:5000/twobombs/qrackmin:pyqrack twobombs/qrackmin:pyqrack
 
 docker pull $HOSTNAME:5000/twobombs/qrackmin:qbdd
-docker tag $HOSTNAME:5000/twobombs/qrackmin:qndd twobombs/qrackmin:qbdd
+docker tag $HOSTNAME:5000/twobombs/qrackmin:qbdd twobombs/qrackmin:qbdd
 
 docker pull $HOSTNAME:5000/twobombs/qrackmin:qiskit
 docker tag $HOSTNAME:5000/twobombs/qrackmin:qiskit twobombs/qrackmin:qiskit
