@@ -17,7 +17,7 @@ apt install -y docker-buildx
 docker build --no-cache -f Dockerfile . -t twobombs/twobombs > twobombs && docker tag twobombs/twobombs $HOSTNAME:5000/twobombs/twobombs && docker push $HOSTNAME:5000/twobombs/twobombs
 
 # run all 10 jobs dind with 120 seconds interval
-echo "all 7 jobs wil start with 120 seconds interval"
+echo "all 7 jobs wil start with 120 seconds interval, some will fork in the background"
 
 docker run -d --privileged --name qrackmin --net=host twobombs/twobombs bash qrackmin.sh
 sleep 120
