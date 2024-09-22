@@ -7,7 +7,7 @@ docker build --no-cache -f Dockerfiles/Dockerfile . -t twobombs/thereminq-bonsai
 docker push $HOSTNAME:5000/twobombs/thereminq-bonsai &
 
 docker build --no-cache -f Dockerfiles/Dockerfile-2204 . -t twobombs/thereminq-bonsai:2204 > thereminq-bonsai:2204 && docker tag twobombs/thereminq-bonsai:2204 $HOSTNAME:5000/twobombs/thereminq-bonsai:2204
-docker push $HOSTNAME:5000/twobombs/thereminq-bonsai:2204 &
+docker push $HOSTNAME:5000/twobombs/thereminq-bonsai:2204
 
 docker build --no-cache -f Dockerfiles/Dockerfile-bonsai-qft . -t twobombs/thereminq-bonsai:qft > thereminq-bonsai:qft && docker tag twobombs/thereminq-bonsai:qft $HOSTNAME:5000/twobombs/thereminq-bonsai:qft && docker push $HOSTNAME:5000/twobombs/thereminq-bonsai:qft &
 
