@@ -7,7 +7,7 @@ docker build --no-cache -f Dockerfile . -t twobombs/deploy-nvidia-docker > deplo
 docker push $HOSTNAME:5000/twobombs/deploy-nvidia-docker &
 
 docker build --no-cache -f Dockerfile2204-dev . -t twobombs/deploy-nvidia-docker:2204dev > deploy-nvidia-docker-2204dev && docker tag twobombs/deploy-nvidia-docker:2204dev $HOSTNAME:5000/twobombs/deploy-nvidia-docker:2204dev
-docker push $HOSTNAME:5000/twobombs/deploy-nvidia-docker:2204dev
+docker push $HOSTNAME:5000/twobombs/deploy-nvidia-docker:2204dev &
 
 docker build --no-cache -f Dockerfile-dev . -t twobombs/deploy-nvidia-docker:dev > deploy-nvidia-docker-dev && docker tag twobombs/deploy-nvidia-docker:dev $HOSTNAME:5000/twobombs/deploy-nvidia-docker:dev
 docker push $HOSTNAME:5000/twobombs/deploy-nvidia-docker:dev
