@@ -9,6 +9,9 @@ docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker twobombs/deploy-nvidia-d
 docker pull $HOSTNAME:5000/twobombs/deploy-nvidia-docker:dev
 docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker:dev twobombs/deploy-nvidia-docker:dev
 
+docker pull $HOSTNAME:5000/twobombs/deploy-nvidia-docker:2204dev
+docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker:2204dev twobombs/deploy-nvidia-docker:2204dev
+
 docker pull $HOSTNAME:5000/twobombs/deploy-nvidia-docker:minimum
 docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker:minimum twobombs/deploy-nvidia-docker:minimum
 
@@ -17,6 +20,9 @@ docker tag $HOSTNAME:5000/twobombs/cudacluster twobombs/cudacluster
 
 docker pull $HOSTNAME:5000/twobombs/cudacluster:dev
 docker tag $HOSTNAME:5000/twobombs/cudacluster:dev twobombs/cudacluster:dev
+
+docker pull $HOSTNAME:5000/twobombs/cudacluster:2204dev
+docker tag $HOSTNAME:5000/twobombs/cudacluster:2204dev twobombs/cudacluster:2204dev
 
 docker pull $HOSTNAME:5000/twobombs/cudacluster:hpc
 docker tag $HOSTNAME:5000/twobombs/cudacluster:hpc twobombs/cudacluster:hpc
