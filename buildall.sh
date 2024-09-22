@@ -33,5 +33,5 @@ docker run -d --privileged --name thereminq-bonsai --net=host twobombs/twobombs 
 sleep 20
 docker run -d --privileged --name thereminq-llama --net=host twobombs/twobombs bash thereminq-llama.sh
 
-screen glances
+glances
 tail -f /dev/null
