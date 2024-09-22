@@ -8,7 +8,7 @@
 # and commit the builds against a local registry - exposed at http://localhost
 
 # setup registry and registry UI
-docker run -d -p 5000:5000 --net=host --restart=always -v /data/registry:/var/lib/registry --name registry2 registry:2
+docker run -d -p 5000:5000 --net=host --restart=always -v registry:/var/lib/registry --name registry2 registry:2
 docker run -d -p 80:80 --net=host --restart=always --name webregistry -e SINGLE_REGISTRY=true -e NGINX_PROXY_PASS_URL=http://$HOSTNAME:5000 joxit/docker-registry-ui:main
 
 # build build container image
