@@ -17,20 +17,20 @@ apt install -y docker-buildx
 docker build --no-cache -f Dockerfile . -t twobombs/twobombs > twobombs && docker tag twobombs/twobombs $HOSTNAME:5000/twobombs/twobombs && docker push $HOSTNAME:5000/twobombs/twobombs
 
 # run all 10 jobs dind with 120 seconds interval
-echo "all 7 jobs wil start with 120 seconds interval, some will fork in the background"
+echo "all 7 jobs wil start with 20 seconds interval, some will fork in the background"
 
 docker run -d --privileged --name qrackmin --net=host twobombs/twobombs bash qrackmin.sh
-sleep 120
+sleep 20
 docker run --privileged --name deploy-nvidia-docker --net=host twobombs/twobombs bash deploy-nvidia-docker.sh
-sleep 120
+sleep 20
 docker run --privileged --name cudacluster --net=host twobombs/twobombs bash cudacluster.sh
-sleep 120
+sleep 20
 docker run -d --privileged --name thereminq --net=host twobombs/twobombs bash thereminq.sh
-sleep 120
+sleep 20
 docker run -d --privileged --name thereminq-tensors --net=host twobombs/twobombs bash thereminq-tensors.sh
-sleep 120
+sleep 20
 docker run -d --privileged --name thereminq-bonsai --net=host twobombs/twobombs bash thereminq-bonsai.sh
-sleep 120
+sleep 20
 docker run -d --privileged --name thereminq-llama --net=host twobombs/twobombs bash thereminq-llama.sh
 
 screen glances
