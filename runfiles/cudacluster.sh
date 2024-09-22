@@ -10,7 +10,7 @@ docker build --no-cache -f Dockerfile-dev . -t twobombs/cudacluster:dev > cudacl
 docker push $HOSTNAME:5000/twobombs/cudacluster:dev &
 
 docker build --no-cache -f Dockerfile2204-dev . -t twobombs/cudacluster:2204dev > cudacluster:2204dev && docker tag twobombs/cudacluster:2204dev $HOSTNAME:5000/twobombs/cudacluster:2204dev
-docker push $HOSTNAME:5000/twobombs/cudacluster:2204dev &
+docker push $HOSTNAME:5000/twobombs/cudacluster:2204dev
 
 docker build --no-cache -f Dockerfile-hpc . -t twobombs/cudacluster:hpc > cudacluster:hpc && docker tag twobombs/cudacluster:hpc $HOSTNAME:5000/twobombs/cudacluster:hpc
 docker push $HOSTNAME:5000/twobombs/cudacluster:hpc &
