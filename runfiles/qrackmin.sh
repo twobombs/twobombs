@@ -1,5 +1,7 @@
 #!/bin/bash
 #
+# give docker time to spin up
+sleep 20
 
 cd qrackmin
 
