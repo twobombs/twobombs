@@ -1,5 +1,7 @@
 #!/bin/bash
 # build and push
+# give docker time to spin up
+sleep 20
 
 cd deploy-nvidia-docker
 
