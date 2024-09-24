@@ -19,3 +19,6 @@ docker push $HOSTNAME:5000/twobombs/thereminq-tensors:shors
 
 docker build --no-cache -f Dockerfiles/Dockerfile-agent . -t twobombs/thereminq-tensors:agent > thereminq-tensors:agent && docker tag twobombs/thereminq-tensors:agent $HOSTNAME:5000/twobombs/thereminq-tensors:agent
 docker push $HOSTNAME:5000/twobombs/thereminq-tensors:agent
+
+docker stats
+tail -f /dev/null
