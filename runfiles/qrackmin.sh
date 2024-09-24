@@ -34,3 +34,6 @@ docker push $HOSTNAME:5000/twobombs/qrackmin:vcl-controller
 
 docker build --no-cache -f dockerfiles/Dockerfile-vcl-pocl . -t twobombs/qrackmin:vcl-pocl > qrackmin:vcl-controller && docker tag twobombs/qrackmin:vcl-pocl $HOSTNAME:5000/twobombs/qrackmin:vcl-pocl
 docker push $HOSTNAME:5000/twobombs/qrackmin:vcl-pocl
+
+docker stats
+tail -f /dev/null
