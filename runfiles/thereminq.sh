@@ -27,3 +27,6 @@ docker push $HOSTNAME:5000/twobombs/thereminq:unittest &
 
 docker build --no-cache -f Dockerfiles/Dockerfile-vcl-controller-node . -t twobombs/thereminq:vcl-controller-node > thereminq:vcl-controller-node && docker tag twobombs/thereminq:vcl-controller-node $HOSTNAME:5000/twobombs/thereminq:vcl-controller-node
 docker push $HOSTNAME:5000/twobombs/thereminq:vcl-controller-node
+
+docker stats
+tail -f /dev/null
