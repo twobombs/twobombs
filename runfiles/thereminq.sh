@@ -1,5 +1,8 @@
 #!/bin/bash
 #
+# give docker time to spin up
+sleep 20
+
 cd thereminq
 
 docker build --no-cache -f Dockerfiles/Dockerfile . -t twobombs/thereminq > thereminq && docker tag twobombs/thereminq $HOSTNAME:5000/twobombs/thereminq
