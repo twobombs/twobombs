@@ -19,3 +19,6 @@ docker push $HOSTNAME:5000/twobombs/thereminq-llama:big-agency
 
 docker build --no-cache -f Dockerfiles/Dockerfile-chemistry . -t twobombs/thereminq-llama:chemistry > thereminq-llama:chemistry && docker tag twobombs/thereminq-llama:chemistry $HOSTNAME:5000/twobombs/thereminq-llama:chemistry
 docker push $HOSTNAME:5000/twobombs/thereminq-llama:chemistry
+
+docker stats
+tail -f /dev/null
