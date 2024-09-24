@@ -29,3 +29,6 @@ docker push $HOSTNAME:5000/twobombs/thereminq-bonsai:qcircuit
 
 docker build --no-cache -f Dockerfiles/Dockerfile-qrack-precooked . -t twobombs/thereminq-bonsai:precooked > thereminq-bonsai:precooked && docker tag twobombs/thereminq-bonsai:precooked $HOSTNAME:5000/twobombs/thereminq-bonsai:precooked
 docker push $HOSTNAME:5000/twobombs/thereminq-bonsai:precooked
+
+docker stats
+tail -f /dev/null
