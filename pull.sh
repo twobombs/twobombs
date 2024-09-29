@@ -1,7 +1,7 @@
 # this publishes all images to docker repo
 # enter creds
 
-docker login
+# docker login
 
 docker pull $HOSTNAME:5000/twobombs/deploy-nvidia-docker
 docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker twobombs/deploy-nvidia-docker
