@@ -21,9 +21,9 @@ echo "all 7 jobs wil start with 20 seconds interval, some will fork in the backg
 
 docker run -d --privileged --name qrackmin --net=host twobombs/twobombs bash qrackmin.sh
 sleep 20
-docker run --privileged --name deploy-nvidia-docker --net=host twobombs/twobombs bash deploy-nvidia-docker.sh
+docker run -d --privileged --name deploy-nvidia-docker --net=host twobombs/twobombs bash deploy-nvidia-docker.sh
 sleep 20
-docker run --privileged --name cudacluster --net=host twobombs/twobombs bash cudacluster.sh
+docker run -d --privileged --name cudacluster --net=host twobombs/twobombs bash cudacluster.sh
 sleep 20
 docker run -d --privileged --name thereminq --net=host twobombs/twobombs bash thereminq.sh
 sleep 20

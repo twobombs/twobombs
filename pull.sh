@@ -138,20 +138,20 @@ docker tag $HOSTNAME:5000/twobombs/thereminq-bonsai:qcircuit twobombs/thereminq-
 docker pull $HOSTNAME:5000/twobombs/thereminq-bonsai:precooked
 docker tag $HOSTNAME:5000/twobombs/thereminq-bonsai:precooked twobombs/thereminq-bonsai:precooked
 
-docker pull $HOSTNAME:5000/twobombs/thereminq-tensor
-docker tag $HOSTNAME:5000/twobombs/thereminq-tensor twobombs/thereminq-tensor
+docker pull $HOSTNAME:5000/twobombs/thereminq-tensors
+docker tag $HOSTNAME:5000/twobombs/thereminq-tensors twobombs/thereminq-tensors
 
-docker pull $HOSTNAME:5000/twobombs/thereminq-tensor:metal
-docker tag $HOSTNAME:5000/twobombs/thereminq-tensor:metal twobombs/thereminq-tensor:metal
+docker pull $HOSTNAME:5000/twobombs/thereminq-tensors:metal
+docker tag $HOSTNAME:5000/twobombs/thereminq-tensors:metal twobombs/thereminq-tensors:metal
 
-docker pull $HOSTNAME:5000/twobombs/thereminq-tensor:minimum
-docker tag $HOSTNAME:5000/twobombs/thereminq-tensor:minimum twobombs/thereminq-tensor:minimum
+docker pull $HOSTNAME:5000/twobombs/thereminq-tensors:minimum
+docker tag $HOSTNAME:5000/twobombs/thereminq-tensors:minimum twobombs/thereminq-tensors:minimum
 
-docker pull $HOSTNAME:5000/twobombs/thereminq-tensor:quda
-docker tag $HOSTNAME:5000/twobombs/thereminq-tensor:quda twobombs/thereminq-tensor:quda
+docker pull $HOSTNAME:5000/twobombs/thereminq-tensors:quda
+docker tag $HOSTNAME:5000/twobombs/thereminq-tensors:quda twobombs/thereminq-tensors:quda
 
-docker pull $HOSTNAME:5000/twobombs/thereminq-tensor:shors
-docker tag $HOSTNAME:5000/twobombs/thereminq-tensor:shors twobombs/thereminq-tensor:shors
+docker pull $HOSTNAME:5000/twobombs/thereminq-tensors:shors
+docker tag $HOSTNAME:5000/twobombs/thereminq-tensors:shors twobombs/thereminq-tensors:shors
 
 docker pull $HOSTNAME:5000/twobombs/thereminq-llama
 docker tag $HOSTNAME:5000/twobombs/thereminq-llama twobombs/thereminq-llama
