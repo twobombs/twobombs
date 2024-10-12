@@ -6,7 +6,7 @@
 <br>
 <br>
 
-- 🔭 I’m currently working on [Quantum AI Agency](https://github.com/twobombs/thereminq-llama) for [QC Circuit simulations](https://github.com/twobombs/thereminq-tensors?tab=readme-ov-file#ollama-open-interpreter-agentops-stack-for-coding-solutions)
+- 🔭 I’m currently working on [Quantum AI Agency](https://github.com/twobombs/thereminq-llama) and [QC Circuit simulations](https://github.com/twobombs/thereminq-tensors?tab=readme-ov-file#ollama-open-interpreter-agentops-stack-for-coding-solutions)
 - 💬 Ask me about [Quantum AI-Agents](https://github.com/twobombs/thereminq-tensors?tab=readme-ov-file#ollama-open-interpreter-agentops-stack-for-coding-solutions), [Quantum Chemistry](https://github.com/twobombs/thereminq-llama/tree/main) and [fast scrambling](https://youtu.be/5NhJT8rtrOM?si=T28ePIyrzEnLlbxX) for [Great Benefit of Glorious Iterations](https://youtu.be/6Y08Tt51HDQ?si=bhZs23zwc_Atm5dI)
 - 📫 How to reach me: [Twitter](https://twitter.com/twobombs)
 - ⚡ Fun facts: Twobombs is a BBS handle and derives from an [arcane exception on the AtariST](https://en.wikipedia.org/wiki/Bomb_(icon)#Atari_ST_TOS) - [my Discord](https://discord.gg/wG3gV6zP) (modern BBS)
