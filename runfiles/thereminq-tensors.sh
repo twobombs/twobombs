@@ -8,6 +8,9 @@ cd thereminq-tensors
 docker build --no-cache -f Dockerfiles/Dockerfile . -t twobombs/thereminq-tensors > thereminq-tensors && docker tag twobombs/thereminq-tensors $HOSTNAME:5000/twobombs/thereminq-tensors
 docker push $HOSTNAME:5000/twobombs/thereminq-tensors
 
+docker build --no-cache -f Dockerfiles/Dockerfile-jupyter . -t twobombs/thereminq-tensors:jupyter > thereminq-tensors:jupyter && docker tag twobombs/thereminq-tensors:jupyter $HOSTNAME:5000/twobombs/thereminq-tensors:jupyter
+docker push $HOSTNAME:5000/twobombs/thereminq-tensors:jupyter
+
 docker build --no-cache -f Dockerfiles/Dockerfile-metal . -t twobombs/thereminq-tensors:metal > thereminq-tensors:metal && docker tag twobombs/thereminq-tensors:metal $HOSTNAME:5000/twobombs/thereminq-tensors:metal && docker push $HOSTNAME:5000/twobombs/thereminq-tensors:metal &
 
 docker build --no-cache -f Dockerfiles/Dockerfile-minimum . -t twobombs/thereminq-tensors:minimum > thereminq-tensors:minimum && docker tag twobombs/thereminq-tensors:minimum $HOSTNAME:5000/twobombs/thereminq-tensors:minimum && docker push $HOSTNAME:5000/twobombs/thereminq-tensors:minimum &
