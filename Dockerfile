@@ -18,6 +18,9 @@ RUN git clone https://github.com/twobombs/thereminq-tensors.git
 RUN git clone https://github.com/twobombs/thereminq-llama.git
 RUN git clone https://github.com/twobombs/thereminq-pqc.git
 
+RUN git clone https://github.com/twobombs/thereminq-examples.git
+
+
 COPY runfiles/* /build/
 RUN chmod 744 *
 
