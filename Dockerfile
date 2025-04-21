@@ -12,7 +12,7 @@ RUN git clone https://github.com/twobombs/deploy-nvidia-docker.git
 RUN git clone https://github.com/twobombs/cudacluster.git
 
 RUN git clone https://github.com/twobombs/qrackmin.git
-RUN git clone https://github.com/twobombs/thereminq.git
+RUN git clone https://github.com/twobombs/thereminq-classiq.git && mv thereminq-classiq thereminq
 RUN git clone https://github.com/twobombs/thereminq-bonsai.git
 RUN git clone https://github.com/twobombs/thereminq-tensors.git
 RUN git clone https://github.com/twobombs/thereminq-llama.git
