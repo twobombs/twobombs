@@ -4,6 +4,7 @@
 🧭 Teleporting 🌊 Hilbert Space 🌌 QuantOPS ⚒️
 
 <br>
+Need advice on QC/AI [integration](https://calendar.google.com/calendar/u/0/appointments/AcZssZ0AingtQt8lYRrXClamCE3Qo5V76hKk3oibR9s=) ?
 <br>
 
 - 🔭 I’m currently working on [QC Circuit simulations](https://github.com/twobombs/thereminq-tensors) and [PQC PoCs](https://github.com/twobombs/thereminq-pqc) 
