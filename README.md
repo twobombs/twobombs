@@ -3,9 +3,11 @@
 <img width="1000" alt="ThereminQ" src="https://github.com/twobombs/thereminq-tensors/assets/12692227/a299e650-6513-43d1-afab-ba036aa5e12e">
 🧭 Teleporting 🌊 Hilbert Space 🌌 QuantOPS ⚒️
 
+
 <br>
 Need advice on QC/AI [integrations](https://calendar.google.com/calendar/u/0/appointments/AcZssZ0AingtQt8lYRrXClamCE3Qo5V76hKk3oibR9s=)
 <br>
+
 
 - 🔭 I’m currently working on [QC Circuit simulations](https://github.com/twobombs/thereminq-tensors) and [PQC PoCs](https://github.com/twobombs/thereminq-pqc) 
 - 💬 Ask me about [Quantum AI-Agents](https://github.com/twobombs/thereminq-tensors?tab=readme-ov-file#ollama-open-interpreter-agentops-stack-for-coding-solutions), [Quantum Chemistry](https://github.com/twobombs/thereminq-llama/tree/main) and [fast scrambling](https://youtu.be/5NhJT8rtrOM?si=T28ePIyrzEnLlbxX) for [Great Benefit of Glorious Iterations](https://youtu.be/6Y08Tt51HDQ?si=bhZs23zwc_Atm5dI)
