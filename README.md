@@ -5,7 +5,7 @@
 
 <br>
 <br>
-Need advice on ThereminQ QC/AI integrations ?https://calendar.google.com/calendar/u/0/appointments/AcZssZ0AingtQt8lYRrXClamCE3Qo5V76hKk3oibR9s=)
+Need advice on ThereminQ QC/AI integrations ?https://calendar.google.com/calendar/u/0/appointments/AcZssZ0AingtQt8lYRrXClamCE3Qo5V76hKk3oibR9s=
 <br>
 <br>
 
