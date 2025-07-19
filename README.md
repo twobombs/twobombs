@@ -38,10 +38,6 @@ After building for a few hours tags are [browsable](http://localhost) and can be
 
 ThereminQ contains a collection of a huge number of open source projects - Any and all rights belong to their respective owners
 
-## Code from the following companies and initiatives are in this container
-
-![](https://user-images.githubusercontent.com/12692227/57654809-61c07f00-75d5-11e9-9005-38d60d8d4db4.png)
-
 If (your) code resides in any of these container images and you don't want that please let me know <br>
 
 [Code of conduct : Contributor Covenant](https://github.com/EthicalSource/contributor_covenant)
