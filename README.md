@@ -36,7 +36,7 @@ After building for a few hours tags are [browsable](http://localhost) and can be
 
 [![Twobombs's GitHub stats](https://github-readme-stats.vercel.app/api?username=twobombs&theme=city_lights&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 
-ThereminQ contains a collection of a huge number of open source projects - Any and all rights belong to their respective owners
+ThereminQ is a Stack made from a huge number of open source projects - Any and all rights belong to the respective owners
 
 If (your) code resides in any of these container images and you don't want that please let me know <br>
 
