@@ -18,7 +18,7 @@ Need advice on ThereminQ QuantOPS QC/AI integrations ?https://calendar.google.co
 
 <br>
 
-The AI/LLM models that are used in some of the container images are modified and quantized for their specialized purpose and are pulled at build- and runtime from the [Huggingface repo for ThereminQ](https://huggingface.co/Twobombs)
+Some of the agents & models that are used in some of the container images are sometimes modified and/or quantized for their specialized purpose and are pulled at build- and runtime from the [Huggingface repo for ThereminQ](https://huggingface.co/Twobombs)
 
 <br>
 
