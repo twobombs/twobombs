@@ -2,7 +2,6 @@
 
 <img width="5978" height="1578" alt="thereminq-wide" src="https://github.com/user-attachments/assets/272a9fdc-d924-4771-850c-d100f23562f6" />
 
-🧭 Teleporting 🌊 Hilbert Space 🌌 QuantOPS ⚒️
 
 <br>
 <br>
