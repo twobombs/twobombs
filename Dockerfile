@@ -21,7 +21,7 @@ RUN git clone https://github.com/twobombs/thereminq-pqc.git
 RUN git clone https://github.com/twobombs/thereminq-examples.git
 
 COPY runfiles/* /build/
-RUN cd build && chmod 744 *
+RUN cd /build && chmod 744 *.sh
 
 COPY buildall.sh buildall.sh
 RUN chmod 755 buildall.sh
