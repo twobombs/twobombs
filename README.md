@@ -1,4 +1,4 @@
-🏠 Home of `ThereminQ - QuantOPS` ⚛️ a Cloud ☁️ Native Toolbox ⚒️ for Quantum Workloads 👷 and Visualisations 🖼️ 
+🏠 Home of `ThereminQ - QuantumOPS` ⚛️ a Cloud ☁️ Native Toolbox ⚒️ for Quantum Workloads 👷 and Visualisations 🖼️ 
 
 <img width="5978" height="1578" alt="thereminq-wide" src="https://github.com/user-attachments/assets/272a9fdc-d924-4771-850c-d100f23562f6" />
 
@@ -6,11 +6,11 @@
 
 ## Project Overview
 
-This repository serves as the central build system for the `ThereminQ - QuantOPS` project, a comprehensive, cloud-native toolbox for quantum computing workloads and visualizations. It is designed to automate the build process for a suite of Docker container images, each containing a specific component of the ThereminQ ecosystem. The project leverages a Docker-in-Docker (dind) approach to create a self-contained build environment capable of producing a wide range of container images for quantum simulations, AI agent integration, and more.
+This repository serves as the central build system for the `ThereminQ - QuantumOPS` project, a comprehensive, cloud-native toolbox for quantum computing workloads and visualizations. It is designed to automate the build process for a suite of Docker container images, each containing a specific component of the ThereminQ ecosystem. The project leverages a Docker-in-Docker (dind) approach to create a self-contained build environment capable of producing a wide range of container images for quantum simulations, AI agent integration, and more.
 
 ## Components
 
-The `ThereminQ - QuantOPS` ecosystem is composed of several key components, each housed in its own repository and built as a distinct Docker container image. These components are:
+The `ThereminQ - QuantumOPS` ecosystem is composed of several key components, each housed in its own repository and built as a distinct Docker container image. These components are:
 
 - **`twobombs`**: The core repository containing the build system itself. It orchestrates the building of all other components
 - **`deploy-nvidia-docker`**: A utility for enabling GPU acceleration within Docker, setting up the NVIDIA Docker Desktop UI
