@@ -12,16 +12,16 @@ This repository serves as the central build system for the `ThereminQ - QuantOPS
 
 The `ThereminQ - QuantOPS` ecosystem is composed of several key components, each housed in its own repository and built as a distinct Docker container image. These components are:
 
-- **`twobombs`**: The core repository containing the build system itself. It orchestrates the building of all other components.
-- **`deploy-nvidia-docker`**: A utility for setting up the NVIDIA Docker runtime, enabling GPU acceleration within Docker.
-- **`cudacluster`**: A component for creating and managing CUDA clusters for distributed GPU computing tasks.
+- **`twobombs`**: The core repository containing the build system itself. It orchestrates the building of all other components
+- **`deploy-nvidia-docker`**: A utility for setting up the NVIDIA Docker runtime, enabling GPU acceleration within Docker
+- **`cudacluster`**: A component for creating and managing CUDA clusters for distributed GPU computing tasks
 - **`qrackmin`**: A HPC QC package with support for various backends, including CUDA, OpenCL (pocl), Qiskit, AWS BraKET etc.
-- **`thereminq-classiq`**: Integration with the `Classiq` platform for quantum algorithm design leveraging `C` and `OpenCL`.
-- **`thereminq-bonsai`**: Integration with the Bonsai platform for visualisations in `ThereminQ-Classic`.
-- **`thereminq-tensors`**: Focused on tensor network simulations for quantum circuits, for much larger and complex systems.
-- **`thereminq-llama`**: Integration with large language models (LLMs) providing AI agent capabilities.
-- **`thereminq-pqc`**: A component for experimenting with Post-Quantum Cryptography solutions.
-- **`thereminq-examples`**: A collection of examples demonstrating how to use the various components of the `ThereminQ` suite.
+- **`thereminq-classiq`**: Integration with the `Classiq` platform for quantum algorithm design leveraging `C` and `OpenCL`
+- **`thereminq-bonsai`**: Integration with the Bonsai platform for visualisations in `ThereminQ-Classic`
+- **`thereminq-tensors`**: Focused on tensor network simulations for quantum circuits, for much larger and complex systems
+- **`thereminq-llama`**: Integration with large language models (LLMs) providing AI agent capabilities
+- **`thereminq-pqc`**: A component for experimenting with Post-Quantum Cryptography solutions
+- **`thereminq-examples`**: A collection of examples demonstrating how to use the various components of the `ThereminQ` suite
 
 ## Build System
 
