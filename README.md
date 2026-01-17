@@ -61,7 +61,7 @@ To use the build system to build all the `ThereminQ - QuantOPS` container images
 5. **Publish the images (optional):**
    To publish the images to Docker Hub, you will need to have Docker Hub credentials configured on your machine. Then, you can run the appropriate `publish-*.sh` script to publish the images for a specific component. For example, to publish the `qrackmin` images, you would run:
    ```bash
-   ./publish-qrackmin.sh
+   ./publish-thereminq-tensors.sh
    ```
 
 ---
