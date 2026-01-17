@@ -59,7 +59,7 @@ To use the build system to build all the `ThereminQ - QuantOPS` container images
    Once the builds are complete, the container images will be available in the local Docker registry. You can browse the registry by opening a web browser and navigating to `http://localhost`.
 
 5. **Publish the images (optional):**
-   To publish the images to Docker Hub, you will need to have Docker Hub credentials configured on your machine. Then, you can run the appropriate `publish-*.sh` script to publish the images for a specific component. For example, to publish the `qrackmin` images, you would run:
+   To publish the images to Docker Hub, you will need to have Docker Hub credentials configured on your machine. Then, you can run the appropriate `publish-*.sh` script to publish the images for a specific component. For example, to publish the `thereminq-tensors` images, you would run:
    ```bash
    ./publish-thereminq-tensors.sh
    ```
