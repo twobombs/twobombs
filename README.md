@@ -13,7 +13,7 @@ The `ThereminQ - QuantumOPS` ecosystem is composed of several key components, ea
 - **`twobombs`**: The core repository containing the build system itself. It orchestrates the building of all other components
 - **`deploy-nvidia-docker`**: A utility for enabling GPU acceleration within Docker, setting up the NVIDIA Docker Desktop UI
 - **`cudacluster`**: A component for creating and managing CUDA & ROCm clusters for distributed GPU computing tasks
-- **`thereminq-hpc`**: A HPC QC package with support for various backends, including CUDA, OpenCL (pocl), Qiskit, AWS BraKET etc.
+- **`thereminq-hpc`**: A HPC QC package with support for various backends, including CUDA, OpenCL (pocl), Qiskit, AWS BraKET
 - **`thereminq-classiq`**: Integration with the `Classiq` platform for quantum algorithm design leveraging `C` and `OpenCL`
 - **`thereminq-bonsai`**: Integration with the Bonsai platform for visualisations in `ThereminQ-Classic`
 - **`thereminq-tensors`**: Focused on tensor network simulations for quantum circuits and much larger and complex systems
