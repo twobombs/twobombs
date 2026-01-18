@@ -44,6 +44,7 @@ To use the build system to build all the `ThereminQ - QuantOPS` container images
    ```bash
    git clone https://github.com/twobombs/twobombs.git
    cd twobombs
+   docker build --no-cache -f Dockerfile . -t twobombs/twobombs
    ```
 
 2. **Run the `buildall.sh` script:**
