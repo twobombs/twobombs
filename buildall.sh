@@ -13,7 +13,7 @@ docker run -d -p 80:80 --net=host --restart=always --name webregistry -e SINGLE_
 
 # build build container image
 echo "building build container"
-apt install -y docker-buildx
+
 docker build --no-cache -f Dockerfile . -t twobombs/twobombs > twobombs && docker tag twobombs/twobombs $HOSTNAME:5000/twobombs/twobombs && docker push $HOSTNAME:5000/twobombs/twobombs
 
 # run all 10 jobs dind with 120 seconds interval
