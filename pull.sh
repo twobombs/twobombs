@@ -3,80 +3,50 @@
 
 # docker login
 
-docker pull $HOSTNAME:5000/twobombs/deploy-nvidia-docker
-docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker twobombs/deploy-nvidia-docker
+docker pull $HOSTNAME:5000/twobombs/thereminq-desktop
+docker tag $HOSTNAME:5000/twobombs/thereminq-desktop twobombs/thereminq-desktop
 
-docker pull $HOSTNAME:5000/twobombs/deploy-nvidia-docker:dev
-docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker:dev twobombs/deploy-nvidia-docker:dev
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc twobombs/thereminq-hpc
 
-docker pull $HOSTNAME:5000/twobombs/deploy-nvidia-docker:2204dev
-docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker:2204dev twobombs/deploy-nvidia-docker:2204dev
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:1804
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:1804 twobombs/thereminq-hpc:1804
 
-docker pull $HOSTNAME:5000/twobombs/deploy-nvidia-docker:minimum
-docker tag $HOSTNAME:5000/twobombs/deploy-nvidia-docker:minimum twobombs/deploy-nvidia-docker:minimum
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:2004
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:2004 twobombs/thereminq-hpc:2004
 
-docker pull $HOSTNAME:5000/twobombs/cudacluster
-docker tag $HOSTNAME:5000/twobombs/cudacluster twobombs/cudacluster
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:2204
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:2204 twobombs/thereminq-hpc:2204
 
-docker pull $HOSTNAME:5000/twobombs/cudacluster:dev
-docker tag $HOSTNAME:5000/twobombs/cudacluster:dev twobombs/cudacluster:dev
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:aws
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:aws twobombs/thereminq-hpc:aws
 
-docker pull $HOSTNAME:5000/twobombs/cudacluster:2204dev
-docker tag $HOSTNAME:5000/twobombs/cudacluster:2204dev twobombs/cudacluster:2204dev
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:braket
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:braket twobombs/thereminq-hpc:braket
 
-docker pull $HOSTNAME:5000/twobombs/cudacluster:hpc
-docker tag $HOSTNAME:5000/twobombs/cudacluster:hpc twobombs/cudacluster:hpc
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:cuda
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:cuda twobombs/thereminq-hpc:cuda
 
-docker pull $HOSTNAME:5000/twobombs/cudacluster:samples
-docker tag $HOSTNAME:5000/twobombs/cudacluster:samples twobombs/cudacluster:samples
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:pocl
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:pocl twobombs/thereminq-hpc:pocl
 
-docker pull $HOSTNAME:5000/twobombs/cudacluster:vulcan
-docker tag $HOSTNAME:5000/twobombs/cudacluster:vulcan twobombs/cudacluster:vulcan
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:pyqrack
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:pyqrack twobombs/thereminq-hpc:pyqrack
 
-docker pull $HOSTNAME:5000/twobombs/cudacluster:gaming
-docker tag $HOSTNAME:5000/twobombs/cudacluster:gaming twobombs/cudacluster:gaming
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:qbdd
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:qbdd twobombs/thereminq-hpc:qbdd
 
-docker pull $HOSTNAME:5000/twobombs/qrackmin
-docker tag $HOSTNAME:5000/twobombs/qrackmin twobombs/qrackmin
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:qiskit
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:qiskit twobombs/thereminq-hpc:qiskit
 
-docker pull $HOSTNAME:5000/twobombs/qrackmin:1804
-docker tag $HOSTNAME:5000/twobombs/qrackmin:1804 twobombs/qrackmin:1804
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:vcl
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:vcl twobombs/thereminq-hpc:vcl
 
-docker pull $HOSTNAME:5000/twobombs/qrackmin:2004
-docker tag $HOSTNAME:5000/twobombs/qrackmin:2004 twobombs/qrackmin:2004
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:vcl-controller
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:vcl-controller twobombs/thereminq-hpc:vcl-controller
 
-docker pull $HOSTNAME:5000/twobombs/qrackmin:2204
-docker tag $HOSTNAME:5000/twobombs/qrackmin:2204 twobombs/qrackmin:2204
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:aws
-docker tag $HOSTNAME:5000/twobombs/qrackmin:aws twobombs/qrackmin:aws
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:braket
-docker tag $HOSTNAME:5000/twobombs/qrackmin:braket twobombs/qrackmin:braket
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:cuda
-docker tag $HOSTNAME:5000/twobombs/qrackmin:cuda twobombs/qrackmin:cuda
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:pocl
-docker tag $HOSTNAME:5000/twobombs/qrackmin:pocl twobombs/qrackmin:pocl
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:pyqrack
-docker tag $HOSTNAME:5000/twobombs/qrackmin:pyqrack twobombs/qrackmin:pyqrack
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:qbdd
-docker tag $HOSTNAME:5000/twobombs/qrackmin:qbdd twobombs/qrackmin:qbdd
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:qiskit
-docker tag $HOSTNAME:5000/twobombs/qrackmin:qiskit twobombs/qrackmin:qiskit
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:vcl
-docker tag $HOSTNAME:5000/twobombs/qrackmin:vcl twobombs/qrackmin:vcl
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:vcl-controller
-docker tag $HOSTNAME:5000/twobombs/qrackmin:vcl-controller twobombs/qrackmin:vcl-controller
-
-docker pull $HOSTNAME:5000/twobombs/qrackmin:vcl-pocl
-docker tag $HOSTNAME:5000/twobombs/qrackmin:vcl-pocl twobombs/qrackmin:vcl-pocl
+docker pull $HOSTNAME:5000/twobombs/thereminq-hpc:vcl-pocl
+docker tag $HOSTNAME:5000/twobombs/thereminq-hpc:vcl-pocl twobombs/thereminq-hpc:vcl-pocl
 
 docker pull $HOSTNAME:5000/twobombs/thereminq
 docker tag $HOSTNAME:5000/twobombs/thereminq twobombs/thereminq
