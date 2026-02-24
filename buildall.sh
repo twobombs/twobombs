@@ -19,11 +19,9 @@ docker build --no-cache -f Dockerfile . -t twobombs/twobombs > twobombs && docke
 # run all 10 jobs dind with 120 seconds interval
 echo "all 7 jobs wil start with 20 seconds interval, some will fork in the background"
 
-docker run -d --privileged --name qrackmin --net=host twobombs/twobombs bash qrackmin.sh
+docker run -d --privileged --name thereminq-hpc --net=host twobombs/twobombs bash qrackmin.sh
 sleep 20
-docker run -d --privileged --name deploy-nvidia-docker --net=host twobombs/twobombs bash deploy-nvidia-docker.sh
-sleep 20
-docker run -d --privileged --name cudacluster --net=host twobombs/twobombs bash cudacluster.sh
+docker run -d --privileged --name thereminq-desktop --net=host twobombs/twobombs bash thereminq-desktop.sh
 sleep 20
 docker run -d --privileged --name thereminq --net=host twobombs/twobombs bash thereminq.sh
 sleep 20
