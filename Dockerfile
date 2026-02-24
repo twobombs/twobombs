@@ -10,8 +10,8 @@ RUN git clone https://github.com/twobombs/twobombs
 
 RUN git clone https://github.com/twobombs/thereminq-desktop.git
 
-RUN git clone https://github.com/twobombs/qrackmin.git
-RUN git clone https://github.com/twobombs/thereminq-classiq.git && mv thereminq-classiq thereminq
+RUN git clone https://github.com/twobombs/thereminq-hpc.git
+RUN git clone https://github.com/twobombs/thereminq-desktop.git
 RUN git clone https://github.com/twobombs/thereminq-bonsai.git
 RUN git clone https://github.com/twobombs/thereminq-tensors.git
 RUN git clone https://github.com/twobombs/thereminq-llama.git
