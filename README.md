@@ -11,8 +11,7 @@ This repository serves as the central build system for the `ThereminQ - QuantumO
 The `ThereminQ - QuantumOPS` ecosystem is composed of several key components, each housed in its own repository and built as a distinct Docker container image. These components are:
 
 - **`twobombs`**: The core repository containing the build system itself. It orchestrates the building of all other components
-- **`deploy-nvidia-docker`**: A utility for enabling GPU acceleration within Docker, setting up the NVIDIA Docker Desktop UI
-- **`cudacluster`**: A component for creating and managing CUDA & ROCm clusters for distributed GPU computing tasks
+- **`thereminq-desktop`**: A utility for enabling GPU acceleration within Docker, setting up the XFCE Desktop UI
 - **`thereminq-hpc`**: A HPC QC package with support for various backends, including CUDA, OpenCL (pocl), Qiskit, AWS BraKET
 - **`thereminq-classiq`**: Integration with the `Classiq` platform for quantum algorithm design leveraging `C` and `OpenCL`
 - **`thereminq-bonsai`**: Integration with the Bonsai platform for visualisations in `ThereminQ-Classic`
@@ -30,7 +29,7 @@ The build system is designed to be self-contained and automated, using a Docker-
 - **`buildall.sh`**: This is the main orchestration script. When executed, it performs the following steps:
   1. Sets up a local Docker registry and a web UI for browsing the registry.
   2. Builds the main `twobombs/twobombs` builder image using the `Dockerfile`.
-  3. Starts the build process for each component in separate, detached Docker containers. Each container uses the `twobombs/twobombs` image and runs a specific build script (e.g., `qrackmin.sh`, `thereminq-llama.sh`).
+  3. Starts the build process for each component in separate, detached Docker containers. Each container uses the `twobombs/twobombs` image and runs a specific build script (e.g., `thereminq-hpc.sh`, `thereminq-llama.sh`).
 
 - **Component Build Scripts (`runfiles/*.sh`)**: Each component has its own build script located in the `runfiles` directory. These scripts contain the specific `docker build` commands and logic required to build the container images for that component.
 
