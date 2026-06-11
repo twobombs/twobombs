@@ -23,7 +23,7 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ghcr.io/twobombs/twobombs:latest
+      run: docker build . --file Dockerfile --tag ghcr.io/twobombs/twobombs:latest --label org.opencontainers.image.source=https://github.com/${{ github.repository }}
 
     - name: Push the Docker image
       run: docker push ghcr.io/twobombs/twobombs:latest
