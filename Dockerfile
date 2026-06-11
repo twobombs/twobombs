@@ -8,8 +8,6 @@ WORKDIR /build
 
 RUN git clone https://github.com/twobombs/twobombs
 
-RUN git clone https://github.com/twobombs/thereminq-desktop.git
-
 RUN git clone https://github.com/twobombs/thereminq-hpc.git
 RUN git clone https://github.com/twobombs/thereminq-desktop.git
 RUN git clone https://github.com/twobombs/thereminq-bonsai.git
