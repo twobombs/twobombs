@@ -16,9 +16,10 @@ The `ThereminQ - QuantumOPS` ecosystem is composed of several key components, ea
 - **`thereminq-classiq`**: Integration with the `Classiq` platform for quantum algorithm design leveraging `C` and `OpenCL`
 - **`thereminq-bonsai`**: Integration with the Bonsai platform for visualisations in `ThereminQ-Classic`
 - **`thereminq-tensors`**: Focused on tensor network simulations for quantum circuits and much larger and complex systems
-- **`thereminq-llama`**: Integration with large language models (LLMs) providing AI agent capabilities
-- **`thereminq-pqc`**: A component for experimenting with Post-Quantum Cryptography solutions
+- **`thereminq-llama`**: Integration with large language models (LLMs) 
+- **`thereminq-pqc`**: A component for experimenting with Post-Quantum Cryptography `PQC` solutions
 - **`thereminq-examples`**: A collection of examples demonstrating how to use the various components of the `ThereminQ` suite
+- **`thereminq-autoresearch`**: A collection of utilities and autonomous workflows for `ThereminQ` 
 
 ## Build System
 
