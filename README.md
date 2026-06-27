@@ -67,7 +67,7 @@ To use the build system to build all the `ThereminQ - QuantOPS` container images
 
 ---
 
-- 🔭 I’m currently working on [QC Circuit simulations](https://github.com/twobombs/thereminq-tensors) and [PQC PoCs](https://github.com/twobombs/thereminq-pqc) 
+- 🔭 I’m currently working on [DC QC Circuit scaling](https://github.com/twobombs/thereminq-tensors) and [Quantum+AI](https://github.com/twobombs/thereminq-autoresearch) 
 - 💬 Ask me about [Quantum AI-Agents](https://github.com/twobombs/thereminq-tensors?tab=readme-ov-file#ollama-open-interpreter-agentops-stack-for-coding-solutions), [Quantum Chemistry](https://github.com/twobombs/thereminq-llama/tree/main) and [fast scrambling](https://youtu.be/5NhJT8rtrOM?si=T28ePIyrzEnLlbxX) for [Great Benefit of Glorious Iterations](https://youtu.be/6Y08Tt51HDQ?si=bhZs23zwc_Atm5dI)
 - 📫 How to reach me: [Twitter](https://twitter.com/twobombs)
 - ⚡ Fun facts: Twobombs is a BBS handle and derives from an [arcane exception on the AtariST](https://en.wikipedia.org/wiki/Bomb_(icon)#Atari_ST_TOS) - [my Discord](https://discord.gg/wG3gV6zP) (modern BBS)
