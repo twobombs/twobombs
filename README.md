@@ -1,4 +1,4 @@
-🏠 Home of `ThereminQ - QuantumOPS` ⚛️ Cloud ☁️ Native Toolbox ⚒️ Quantum Workloads 👷 Visualisations 🖼️ 
+🏠 Home of `ThereminQ - QuantumOPS` ⚛️ Cloud ☁️ Native Toolbox ⚒️ Quantum Workloads 👷 Visualisations 🖼️
 
 <img width="1016" height="443" alt="Screenshot from 2026-01-01 15-36-30" src="https://github.com/user-attachments/assets/b5c8d613-5dac-484a-baef-0032dfd8e484" />
 
