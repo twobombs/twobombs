@@ -20,6 +20,7 @@ RUN git clone https://github.com/twobombs/thereminq-holoqubed.git
 RUN git clone https://github.com/twobombs/thereminq-autoresearch.git
 
 RUN git clone https://github.com/twobombs/qrack.git
+RUN git clone https://github.com/twobombs/pyqrack.git
 
 COPY runfiles/* /build/
 RUN cd /build && chmod 744 *.sh
