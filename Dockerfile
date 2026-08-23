@@ -19,6 +19,8 @@ RUN git clone https://github.com/twobombs/thereminq-examples.git
 RUN git clone https://github.com/twobombs/thereminq-holoqubed.git
 RUN git clone https://github.com/twobombs/thereminq-autoresearch.git
 
+RUN git clone https://github.com/twobombs/qrack.git
+
 COPY runfiles/* /build/
 RUN cd /build && chmod 744 *.sh
 
